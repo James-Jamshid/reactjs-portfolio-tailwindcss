@@ -18,7 +18,7 @@ const Header = () => {
     flex items-center fixed top-0 w-full text-white z-10 transition all duration-300`}
     >
       <div className="container mix-auto h-full flex items-center justify-between  italic">
-        Jamshidbek Makhmudov
+        <h1 className="italic text-2xl">Jamshid</h1>
         {/* nav */}
         <div className="hidden lg:block">
           <Nav />

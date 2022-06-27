@@ -20,13 +20,18 @@ const About = () => {
               <p className="mb-4 text-accent">Front End Web Developer </p>
               <hr className="mb-8 opacity-5" />
               <p className="mb-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-                sequi a alias iste iusto est illum quaerat et perspiciatis.
+                i've a 6 months of experience writing web apps that span
+                consumer productivity software to mission-critical financial
+                trading platforms. I've extensive knowledge of front-end
+                JavaScript and browser APIs as well as significant experience
+                with popular frameworks and libraries like React.
               </p>
             </div>
-            <button className="btn btn-md bg-accent hover:bg-accent-hover  transition-all">
-              Contact me
-            </button>
+            <a href="https://www.facebook.com/jamshid.makhmudov.1994">
+              <button className="btn btn-md bg-accent hover:bg-accent-hover  transition-all">
+                Contact me
+              </button>
+            </a>
           </div>
         </div>
       </div>
