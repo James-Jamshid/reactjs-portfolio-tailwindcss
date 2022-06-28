@@ -13,6 +13,8 @@ import { Link } from "react-scroll";
 
 const NavMobile = () => {
   const [isOpen, setIsOpen] = useState(false);
+  // const [nav, setNav] = useState(false);
+  // const handleClick = () => setNav(!nav);
   //framer motion variants
   const circleVariants = {
     hidden: {
@@ -74,11 +76,13 @@ const NavMobile = () => {
           return (
             <li key={index} className="mb-8">
               <Link
+                // onClick={handleClick}
+                onClick={() => setIsOpen(false)}
                 to={item.href}
                 smooth={true}
                 duration={500}
                 offset={-70}
-                className="text-xl cursor-pointer
+                className="text-xl cursor-pointer hover:text-accent-hover
               capitalize"
               >
                 {item.name}
