@@ -4,7 +4,7 @@ import Image from "../assets/img/about.jpeg";
 
 const About = () => {
   return (
-    <section className="section bg-secondary">
+    <section className="section bg-secondary " id="about">
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-24 ">
           <img

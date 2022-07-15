@@ -15,7 +15,7 @@ import Testimonials from "./components/Testimonials";
 
 const AppPage = () => {
   return (
-    <div>
+    <div className="bg-white relative">
       <Header />
       <Hero />
       <Brands />

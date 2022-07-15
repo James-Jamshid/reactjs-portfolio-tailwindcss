@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <header
       className={`${bg ? "bg-tertiary h-20 " : "h-24"} 
-    flex items-center fixed top-0 w-full text-white z-10 transition all duration-300`}
+    flex items-center justify-center fixed top-0 w-full text-white z-10 transition all duration-300 `}
     >
       <div className="container mix-auto h-full flex items-center justify-between  italic">
         <h1 className="italic text-2xl">Jamshid</h1>
